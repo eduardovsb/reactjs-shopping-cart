@@ -1,0 +1,30 @@
+.cart__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.cart__products {
+    width: 75%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart__product-item {
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .cart__content {
+        display: block;
+    }
+
+    .cart__product-item {
+        display: flex;
+        flex-direction: column;
+    }
+}

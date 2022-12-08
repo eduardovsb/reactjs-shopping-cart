@@ -1,0 +1,10 @@
+@import '../../index.scss';
+
+.products__container {
+    margin: 8px 0;
+    border: 2px solid $primary-font-color;
+
+    & h2 {
+        margin: 8px;
+    }
+}
